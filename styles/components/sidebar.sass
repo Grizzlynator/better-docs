@@ -10,16 +10,29 @@
     color: $grey
     overflow-wrap: break-word
     &:hover, &.active
-      color: $red-active
+      font-weight: 700
+      text-decoration: underline
   h3
     margin: rem(24px) 0 rem(6px)
     color: $main-nav
-    font-size: 12px
+    font-family: 'Montserrat', sans-serif
+    font-size: 13px
+    font-weight: 700
     text-transform: uppercase
+    letter-spacing: 1px
   ul
     padding: 0 0 rem(4px) rem(16px)
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', arial, sans-serif
+    font-size: 100%
+    line-height: 17px
     li
       padding: rem(3px) 0
+      a
+        font-family: 'Montserrat', sans-serif
+        line-height: 18px
+        padding: 0
+        display: block
+        font-size: 13px
   li > ul
     padding: 0 0 0px 25px
 
@@ -28,6 +41,8 @@
       color: #000
       font-size: 20px
       margin-top: 40px
+      font-family: 'Montserrat', sans-serif
+      letter-spacing: 1px
 
 #sidebarNav.sticky
   left: 0
